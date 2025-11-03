@@ -6,9 +6,9 @@ bp = Blueprint('auth', __name__, url_prefix='/auth')
 
 # Прототипная карта паролей из дампа (в учебном задании)
 PASSWORD_MAP = {
-    'alex': 'Webnovel_659',
-    'pobed': 'Coolest_354',
-    'ruk': 'immrgay'
+    'alex': '1899',
+    'pobed': '18991899',
+    'ruk': '189918991899'
 }
 
 def get_user_by_username(username):
